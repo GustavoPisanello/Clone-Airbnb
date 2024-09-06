@@ -1,6 +1,6 @@
 # Clone-Airbnb
 
-Site clone do Airbnb. Feito apenas para fins educativos.
+Site clone do Airbnb. Feito apenas para fins educativos. <br>
 Checkpoint 1 & 2 - FIAP
 
 Integrantes do grupo:
