@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -16,9 +20,9 @@ section{
     width: 100vw;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
-} */
+}
 
 :root{
     --vermelho-airbnb: #ff385c;

@@ -37,4 +37,8 @@
     .iconic-text h1{
         font-size: 4rem;
     }
+
+    .iconic-text p{
+        font-size: 0.86rem;
+    }
 }

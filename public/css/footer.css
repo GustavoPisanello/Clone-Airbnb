@@ -177,6 +177,7 @@ footer {
     .tres{
         flex-direction: column-reverse !important;
         padding-top: 24px;
+        margin-bottom: 84px;
     }
 
     .footer-st-info{
@@ -189,5 +190,9 @@ footer {
 
     .another-options{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .title-items{
+        flex-wrap: wrap;
     }
 }

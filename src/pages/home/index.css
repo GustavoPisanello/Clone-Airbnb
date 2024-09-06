@@ -17,6 +17,7 @@ main{
 	flex-direction: column;
     align-items: center;
     width: 100vw;
+    position: relative;
 }
 
 .title{
@@ -131,6 +132,41 @@ main{
     border-radius: 0 0 15px 0;
 }
 
+.reserve-status{
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    font-family: AirbnbFont;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    padding: 16px 22px;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    border-top: var(--cinza-ddd) solid 1px;
+}
+
+.reserve-status button{
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(45deg, #e61e4d, #d80566);
+    border-radius: 10px;
+    font-family: AirbnbFont;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.reserve-status p{
+    margin-left: 20px;
+}
+
+.reserve-status button{
+    margin-right: 20px;
+}
+
 @media screen and (min-width: 1550px){
     .container{
         width: var(--margem-responsivo-1800);
@@ -159,6 +195,45 @@ main{
     .links{
         display: none;
     }
+
+    .box-title{
+        align-items: flex-start;
+    }
+
+    .box-title h1{
+        font-size: 1.5rem;
+    }
+
+    .box-title svg{
+        margin-top: 3px;
+    }
+
+    .box-header{
+        margin: 0;
+        padding: 12px 0;
+    }
+    .reserve-status{
+        display: flex;
+    }
 }
 
-/* Next responvivity is aproaching to 1100px */
+@media  screen and (max-width: 340px) {
+    .reserve-status p{
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .reserve-status button{
+        margin-right: 25px;
+        padding: 15px;
+    }
+
+    .responsive-nav div{
+        padding: 0 12px;
+    }
+
+    .host-description p{
+        font-size: 0.8rem;
+    }
+}

@@ -97,17 +97,12 @@
     align-items: center;
 }
 
-.benefit-icon-box{
-    width: 42px; 
-}
-
 .benefit-icon{
     width:100%;
     border-radius: 100%;
 }
 
 .benefit-details{
-    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -280,6 +275,10 @@
     font-weight: 100;
 }
 
+.room-description a{
+    display: none;
+}
+
 @media screen and (max-width: 860px) {
     .room-info{
         padding: 0;
@@ -293,8 +292,18 @@
         width: 100%;
     }
 
+    .info h1{
+        width: 100%;
+        font-size: 0.89rem;
+    }
+
     .title-info{
         font-size: 0.6rem;
+        width: 100%;
+    }
+
+    .title-info h1{
+        margin-bottom: 10px;
     }
 
     .host-description{
@@ -303,5 +312,48 @@
 
     .host-data{
         width: 100%;
+    }
+
+    .room-description div:first-child{
+        display:flex;
+    }
+
+    .room-description div{
+        display: none;
+    }
+
+    .room-description a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+        color: var(--font-color);
+    }
+
+    .more-info{
+        display: block;
+    }
+
+    .more-info::before{
+        content: 'Mostrar mais';
+    }
+}
+
+@media screen and (max-width:460px) {
+    .benefit{
+        align-items: flex-start;
+    }
+
+    .translation p{
+        font-size: 0.89rem;
+        width: 100%;
+    }
+
+    .room-description{
+        width: 100%;
+    }
+
+    .paragraph{
+        font-size: 0.89rem;
     }
 }
