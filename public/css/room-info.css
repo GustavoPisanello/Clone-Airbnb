@@ -1,0 +1,307 @@
+#room-info{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.room-info{
+    display: flex;
+}
+
+.info-box{
+    width: 66.666%;
+}
+
+.info{
+    width: 87%;
+}
+
+.info h1{
+    font-size: 22px;
+    font-family: AirbnbFont_Lt;
+    font-weight: bold;
+}
+
+.room-item{
+    list-style: none;
+    font-size: 14px;
+}
+
+.title-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-items div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title-info{
+    padding-bottom: 30px;
+    width: 87%;
+}
+
+.ball{
+    width:3px;
+    height: 3px;
+    background-color: black;
+    border-radius: 100%;
+    display: block;
+}
+
+.host-info{
+    padding: 20px 0;
+    border-bottom: var(--cinza-ddd) solid 1px;
+    border-top: var(--cinza-ddd) solid 1px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.host-image-box{
+    width: 42px; 
+}
+
+.host-image{
+    width:100%;
+    border-radius: 100%;
+}
+
+.host-details h1{
+    font-size:  16px;
+}
+
+.host-details p{
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+}
+
+.benefits{
+    margin-left: 10px;
+}
+
+.benefits:last-child{
+    border-bottom: solid 1px var(--cinza-ddd);
+    padding-bottom: 10px;
+}
+
+.benefit{
+    padding: 12px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.benefit-icon-box{
+    width: 42px; 
+}
+
+.benefit-icon{
+    width:100%;
+    border-radius: 100%;
+}
+
+.benefit-details{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 3px;
+}
+
+.benefit-details h1{
+    font-size:  16px;
+}
+
+.benefit-details p{
+    color: rgb(121, 121, 121);
+    font-size: 14px;
+}
+
+.booking-info{
+    width: 33.333%;
+}
+
+.booking-box{
+    width: 100%;
+    height: fit-content;
+    border: var(--cinza-ddd) 1px solid;
+    box-shadow: 0 0 10px var(--cinza-ddd); 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    padding: 30px 0;
+}
+
+.booking-text h1{
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.booking-btn{
+    width: 85%;
+    height: 48px;
+    background-image: linear-gradient(45deg, #e61e4d, #d80566);
+    color: white;
+    font-family: AirbnbFont;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.translation{
+    width: 87%;
+    padding-top: 32px;
+}
+
+.translation p{
+    padding: 16px;
+    background-color: var(--cinza-menu);
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+.translation p a{
+    color: black;
+}
+
+.room-description{
+    width: 87%;
+    border-bottom: var(--cinza-ddd) solid 1px;
+    padding-bottom: 48px;
+}
+
+.paragraph{
+    line-height: 1.6rem;
+    padding-top: 30px;
+}
+
+.host-description{
+    padding-top: 48px;
+    width: 51%;
+    height: 150px;
+    border: var(--cinza-ddd) 1px solid;
+    box-shadow: 0 0 10px var(--cinza-ddd); 
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+.host-image2{
+    width:100%;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.host-image-box2{
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.receive-text{
+    padding: 42px 0 24px 0;
+}
+
+.host-data{
+    width: 87%;
+    border-bottom: var(--cinza-ddd) solid 1px;
+    padding-bottom: 24px;
+}
+
+.host-fun-facts{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.fun-fact{
+    display: flex;
+    gap: 10px;
+}
+
+.fun-fact-text{
+    max-width: 380px;
+}
+
+.paragraph2{
+    line-height: 1.6rem;
+    padding-top: 12px;
+}
+
+.bedroom-info{
+    padding: 48px 0;
+    border-bottom: var(--cinza-ddd) solid 1px;
+}
+
+.bedroom-info h2{
+    font-size: 22px;
+}
+
+.bedroom-image{
+    width: 43%;
+}
+
+.bedroom-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bedroom-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.bedroom-text p{
+    font-weight: 100;
+}
+
+@media screen and (max-width: 860px) {
+    .room-info{
+        padding: 0;
+    }
+
+    .info-box{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .title-info{
+        font-size: 0.6rem;
+    }
+
+    .host-description{
+        width: 100%;
+    }
+
+    .host-data{
+        width: 100%;
+    }
+}
